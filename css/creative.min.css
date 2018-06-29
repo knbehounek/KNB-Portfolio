@@ -79,7 +79,12 @@ section{
     border-right: rgb(165, 165, 165) solid 2px;
     border-top: black solid 2px;
     border-bottom: black solid 2px;
+    color: white;
 
+}
+
+.portLink{
+    color: white;
 }
 
 img::selection{
