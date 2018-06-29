@@ -83,8 +83,9 @@ section{
 
 }
 
-.portLink{
-    color: white;
+.portlinks{
+    font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+    text-align: center;
 }
 
 img::selection{
