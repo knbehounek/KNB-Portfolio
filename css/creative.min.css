@@ -83,6 +83,11 @@ section{
 
 }
 
+#linkRow{
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+}
+
 .portlinks{
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-align: center;
