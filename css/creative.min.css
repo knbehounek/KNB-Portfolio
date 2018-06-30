@@ -88,9 +88,17 @@ section{
     border-bottom: black solid 2px;
 }
 
+.portlinks:hover{
+    text-decoration: underline;
+}
+
 .portlinks{
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-align: center;
+}
+
+.portlinks:hover{
+    text-decoration: underline;
 }
 
 img::selection{
@@ -139,7 +147,12 @@ img::-moz-selection{
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover{
-    background-color:transparent}
+    background-color:transparent
+}
+
+.socialLinks{
+    margin-bottom: 15px;
+}
 
 
 @media (min-width:992px){
@@ -304,6 +317,14 @@ header.masthead p{
         font-size:22px
     }
 }
+
+@media (max-width:519px){
+    .imgDiv{
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    }
+}
+
 
 
 .btn{font-weight:700;
