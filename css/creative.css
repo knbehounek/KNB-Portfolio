@@ -55,6 +55,14 @@ h6 {
   margin-top: 0;
 }
 
+section {
+  padding: 8rem 0;
+}
+
+#portfolio{
+  padding: 0!important
+}
+
 ::-moz-selection {
   color: #fff;
   background: #212529;
